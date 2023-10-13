@@ -21,13 +21,9 @@ export function Taskcard(props) {
           backdropFilter: "blur(5px)",
         }}
       >
-        {props.name} 
-        <span style={{color:"red",
-    float:"right"
-    }}>
-            <RiDeleteBin6Line />
+        {props.name} <RiDeleteBin6Line />
             
-            </span>
+           
       </div>
     </>
   );
